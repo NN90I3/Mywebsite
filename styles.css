@@ -6,8 +6,7 @@ body {
     padding: 0; 
     /* Sets a full-page background image */
     background: url('https://images.unsplash.com/photo-1521295121783-8a321d551ad2') no-repeat center center fixed;
-    background-size: contain; 
-    background-repeat: no-repeat;
+    background-size: cover; 
     color: #fff; 
     text-align: center;
     /* Adjusts line spacing */
@@ -118,13 +117,6 @@ footer {
 
 /* Responsive Design for Mobile */
 @media (max-width: 768px) {
-    body {
-        /* Fix for mobile */
-        background-attachment: scroll; 
-        /* Ensure full image is visible */
-        background-position: center top; 
-        min-height: 100vh;
-    }
     header h1 {
         font-size: 2em; 
     }
@@ -194,7 +186,6 @@ footer {
     justify-content: center;
     width: 120px;
     height: 120px;
-    /* Gold color */
     background-color: rgba(255, 204, 0, 0.8); 
     color: black;
     font-size: 28px;
